@@ -23,7 +23,7 @@ We ❤️ Fortnite and hope this creates an exciting new experience for the game
 
 # FAQs
 ### What can I do with a private server?
-At this time, Modnite Server lets you:
+At this time, NeoServer lets you:
 * Get to the lobby
 * Equip/Add anything you want
 * Customize anything you want
