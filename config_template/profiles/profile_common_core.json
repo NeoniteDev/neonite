@@ -1,0 +1,59 @@
+{
+  "created": "",
+  "updated": "",
+  "rvn": 1,
+  "wipeNumber": 1,
+  "accountId": "",
+  "profileId": "common_core",
+  "version": "grant_new_banner_colors_october_2019",
+  "items": {
+    "Currency": {
+      "templateId": "Currency:MtxPurchased",
+      "attributes": {
+        "platform": "EpicPC"
+      },
+      "quantity": 1000000
+    },
+    "gifting": {
+      "templateId": "GiftBox:GB_Default",
+      "attributes": {
+        "max_level_bonus": 0,
+        "fromAccountId": "",
+        "lootList": [
+          {
+            "itemType": "AthenaBattleBus:BBID_BirthdayBus2nd",
+            "itemGuid": "AthenaBattleBus:BBID_BirthdayBus2nd",
+            "itemProfile": "athena",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  "stats": {
+    "attributes": {
+      "survey_data": {},
+      "personal_offers": {},
+      "intro_game_played": true,
+      "import_friends_claimed": {},
+      "mtx_purchase_history": {},
+      "undo_cooldowns": [],
+      "mtx_affiliate_set_time": "2019-10-10T11:02:58.073Z",
+      "inventory_limit_bonus": 0,
+      "current_mtx_platform": "EpicPC",
+      "mtx_affiliate": "kemo",
+      "weekly_purchases": {},
+      "daily_purchases": {},
+      "ban_history": {},
+      "in_app_purchases": {},
+      "permissions": [],
+      "undo_timeout": "min",
+      "monthly_purchases": {},
+      "allowed_to_send_gifts": true,
+      "mfa_enabled": false,
+      "allowed_to_receive_gifts": true,
+      "gift_history": {}
+    }
+  },
+  "commandRevision": 0
+}

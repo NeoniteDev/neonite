@@ -1,0 +1,251 @@
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-Language" content="en">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Neonite Server Control Panel</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
+	<meta name="description" content="This is an example dashboard created using build-in elements and components.">
+	<meta name="msapplication-tap-highlight" content="no">
+
+	<link href="./main.css" rel="stylesheet">
+	<style type="text/css">
+		/* Chart.js */
+		@-webkit-keyframes chartjs-render-animation {
+			from {
+				opacity: 0.99
+			}
+
+			to {
+				opacity: 1
+			}
+		}
+
+		@keyframes chartjs-render-animation {
+			from {
+				opacity: 0.99
+			}
+
+			to {
+				opacity: 1
+			}
+		}
+
+		.chartjs-render-monitor {
+			-webkit-animation: chartjs-render-animation 0.001s;
+			animation: chartjs-render-animation 0.001s;
+		}
+	</style>
+	<style type="text/css">
+		/* Chart.js */
+		@-webkit-keyframes chartjs-render-animation {
+			from {
+				opacity: 0.99
+			}
+
+			to {
+				opacity: 1
+			}
+		}
+
+		@keyframes chartjs-render-animation {
+			from {
+				opacity: 0.99
+			}
+
+			to {
+				opacity: 1
+			}
+		}
+
+		.chartjs-render-monitor {
+			-webkit-animation: chartjs-render-animation 0.001s;
+			animation: chartjs-render-animation 0.001s;
+		}
+	</style>
+</head>
+
+<body>
+		<div class="app-main">
+			<div class="app-main__outer">
+				<div class="app-main__inner">
+					<div class="app-page-title">
+						<div class="page-title-wrapper">
+							<div class="page-title-heading">
+								<div class="page-title-icon">
+									<img src="./bs.png" alt="Simply Easy Learning" width="60"
+									height="60">
+								</div>
+								<div>Server Control Panels
+									<div class="page-title-subheading">Make your dream Fortnite :D</div>
+									<a href="https://discord.gg/k5ZXqRq">Make sure to join our Discord Server!</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane tabs-animation fade active show" id="tab-content-1" role="tabpanel">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="main-card mb-3 card">
+									<div class="card-body">
+										<h5 class="card-title">Server General Settings</h5>
+										<div>
+											<div class="input-group">
+												<div class="input-group-prepend"><span class="input-group-text">Add Item</span></div>
+												<input id="item" placeholder="TYPE:CID" type="text" class="form-control">
+												<div class="input-group-append">
+													<button onclick="clickme11()" class="btn btn-secondary">Save</button>
+												</div>
+											</div>
+											<br>
+											<div class="input-group">
+												<div class="input-group-prepend"><span class="input-group-text">Announcement</span></div>
+												<input id="announcement" placeholder="Text" type="text" class="form-control">
+												<div class="input-group-append">
+													<button onclick="clickme1()" class="btn btn-secondary">Save</button>
+												</div>
+											</div>
+											<br>
+											<div class="input-group">
+												<div class="input-group-prepend"><span class="input-group-text">Name</span></div>
+												<input id="name" placeholder="In-Game UserName" type="text" class="form-control">
+												<div class="input-group-append">
+													<button onclick="clickme()" class="btn btn-secondary">Save</button>
+												</div>
+											</div>
+											<br>
+											<!-- I AM LAZY AF :V
+												<div class="input-group">
+												<div class="input-group-prepend"><span class="input-group-text">VBucks</span></div>
+												<input id="vbx" placeholder="Amount" type="number" class="form-control">
+												<div class="input-group-append">
+													<button onclick="vbx()" class="btn btn-secondary">Save</button>
+												</div>
+											</div>
+											<br> -->
+											<div class="input-group">
+												<div class="input-group-prepend"><span class="input-group-text">Season</span></div>
+												<input id="season" placeholder="Season Number" type="number" class="form-control">
+												<div class="input-group-append">
+													<button onclick="clickme4()" class="btn btn-secondary">Save</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="main-card mb-3 card">
+									<div class="card-body">
+										<h5 class="card-title">Gifting System</h5>
+										<div>
+											<div class="mb-2 mr-2 badge badge-danger">HOT n NEW</div>
+											<div class="input-group">
+												<div class="input-group-prepend"><span class="input-group-text">Item</span></div>
+												<input id="giftitem" placeholder="TYPE:CID" type="text" class="form-control">
+												<div class="input-group-append">
+													<button onclick="gift1()" class="btn btn-secondary">Save</button>
+												</div>
+											</div>
+											<br>
+											<div class="input-group">
+												<div class="input-group-prepend"><span class="input-group-text">Gifter</span></div>
+												<input id="giftname" placeholder="Gifter Name" type="text" class="form-control">
+												<div class="input-group-append">
+													<button onclick="gift2()" class="btn btn-secondary">Save</button>
+												</div>
+											</div>
+											<br>
+											<div class="input-group">
+												<div class="input-group-prepend"><span class="input-group-text">Box</span></div>
+												<input id="giftbox" placeholder="GiftBoxID" type="text" class="form-control">
+												<div class="input-group-append">
+													<button onclick="gift3()" class="btn btn-secondary">Save</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="main-card mb-3 card">
+									<div class="card-body">
+										<h5 class="card-title">Shop Items Settings</h5>
+										<div>
+											<div class="input-group">
+												<div class="input-group-prepend"><span class="input-group-text">Featured 1</span></div>
+												<input id="featured1" placeholder="TYPE:CID" type="text" class="form-control">
+												<div class="input-group-append">
+													<button onclick="clickme2()" class="btn btn-secondary">Save</button>
+												</div>
+											</div>
+											<br>
+											<div class="input-group">
+												<div class="input-group-prepend"><span class="input-group-text">Featured 2</span></div>
+												<input id="featured2" placeholder="TYPE:CID" type="text" class="form-control">
+												<div class="input-group-append">
+													<button onclick="clickme3()" class="btn btn-secondary">Save</button>
+												</div>
+											</div>
+											<br>
+											<div class="input-group">
+												<div class="input-group-prepend"><span class="input-group-text">Daily 1</span></div>
+												<input id="daily1" placeholder="TYPE:CID" type="text" class="form-control">
+												<div class="input-group-append">
+													<button onclick="clickme5()" class="btn btn-secondary">Save</button>
+												</div>
+											</div>
+											<br>
+											<div class="input-group">
+												<div class="input-group-prepend"><span class="input-group-text">Daily 2</span></div>
+												<input id="daily2" placeholder="TYPE:CID" type="text" class="form-control">
+												<div class="input-group-append">
+													<button onclick="clickme6()" class="btn btn-secondary">Save</button>
+												</div>
+											</div>
+											<br>
+											<div class="input-group">
+												<div class="input-group-prepend"><span class="input-group-text">Daily 3</span></div>
+												<input id="daily3" placeholder="TYPE:CID" type="text" class="form-control">
+												<div class="input-group-append">
+													<button onclick="clickme7()" class="btn btn-secondary">Save</button>
+												</div>
+											</div>
+											<br>
+											<div class="input-group">
+												<div class="input-group-prepend"><span class="input-group-text">Daily 4</span></div>
+												<input id="daily4" placeholder="TYPE:CID" type="text" class="form-control">
+												<div class="input-group-append">
+													<button onclick="clickme8()" class="btn btn-secondary">Save</button>
+												</div>
+											</div>
+											<br>
+											<div class="input-group">
+												<div class="input-group-prepend"><span class="input-group-text">Daily 5</span></div>
+												<input id="daily5" placeholder="TYPE:CID" type="text" class="form-control">
+												<div class="input-group-append">
+													<button onclick="clickme9()" class="btn btn-secondary">Save</button>
+												</div>
+											</div>
+											<br>
+											<div class="input-group">
+												<div class="input-group-prepend"><span class="input-group-text">Daily 6</span></div>
+												<input id="daily6" placeholder="CID" type="text" class="form-control">
+												<div class="input-group-append">
+													<button onclick="clickme10()" class="btn btn-secondary">Save</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<script type="text/javascript" src="./assets/scripts/main.js"></script>
+				<script type="text/javascript" src="./assets/scripts/ipc.js"></script>
+
+				<div class="jvectormap-tip"></div>
+</body>
+
+</html>

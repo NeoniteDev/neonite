@@ -1,0 +1,235 @@
+{
+  "created": "",
+  "updated": "",
+  "rvn": 1,
+  "wipeNumber": 1,
+  "accountId": "",
+  "profileId": "campaign",
+  "version": "delete_giftwraps_on_wrong_profile",
+  "items": {
+    "d36efbf5-4205-45a3-9cd0-ec326e1a3baf": {
+      "templateId": "HomebaseNode:startnode_commandcenter",
+      "attributes": {
+        "item_seen": false
+      },
+      "quantity": 1
+    },
+    "e0ecc9cc-b991-4fe7-93c4-e5ef834b8764": {
+      "templateId": "Hero:hid_commando_grenadegun_uc_t01",
+      "attributes": {
+        "equipped_cosmetics": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "gender": 0,
+        "level": 1,
+        "item_seen": false,
+        "squad_slot_idx": -1,
+        "portrait": "",
+        "hero_name": "DefaultHeroName",
+        "max_level_bonus": 0,
+        "squad_id": "",
+        "mode_loadouts": [],
+        "xp": 0,
+        "slotted_building_id": "",
+        "refundable": false,
+        "building_slot_used": -1,
+        "favorite": false
+      },
+      "quantity": 1
+    },
+    "453c3ced-428d-435e-be18-233c4d677c33": {
+      "templateId": "Quest:achievement_craftfirstweapon",
+      "attributes": {
+        "completion_custom_craftfirstweapon": 0,
+        "level": -1,
+        "item_seen": false,
+        "sent_new_notification": false,
+        "challenge_bundle_id": "",
+        "challenge_linked_quest_given": "",
+        "quest_pool": "",
+        "quest_state": "Active",
+        "last_state_change_time": "2019-10-25T14:53:20.142Z",
+        "challenge_linked_quest_parent": "",
+        "max_level_bonus": 0,
+        "xp": 0,
+        "favorite": false
+      },
+      "quantity": 1
+    },
+    "8d08cae7-84e2-4abc-a641-fd335de58336": {
+      "templateId": "Quest:achievement_protectthesurvivors",
+      "attributes": {
+        "level": -1,
+        "item_seen": false,
+        "completion_custom_protectthesurvivors": 0,
+        "sent_new_notification": false,
+        "challenge_bundle_id": "",
+        "challenge_linked_quest_given": "",
+        "quest_pool": "",
+        "quest_state": "Active",
+        "last_state_change_time": "2019-10-25T14:53:20.142Z",
+        "challenge_linked_quest_parent": "",
+        "max_level_bonus": 0,
+        "xp": 0,
+        "favorite": false
+      },
+      "quantity": 1
+    },
+    "144d843e-86ef-4dee-bd5f-093509d31dd2": {
+      "templateId": "CampaignHeroLoadout:defaultloadout",
+      "attributes": {
+        "loadout_name": "",
+        "team_perk": "",
+        "crew_members": {
+          "followerslot5": "",
+          "followerslot4": "",
+          "followerslot3": "",
+          "followerslot2": "",
+          "followerslot1": "",
+          "commanderslot": "e0ecc9cc-b991-4fe7-93c4-e5ef834b8764"
+        },
+        "loadout_index": 0,
+        "gadgets": []
+      },
+      "quantity": 1
+    },
+    "4a530a56-86dd-452f-a832-8a8dbb34332b": {
+      "templateId": "Schematic:ammo_bulletsmedium",
+      "attributes": {
+        "legacy_alterations": [],
+        "max_level_bonus": 0,
+        "refund_legacy_item": false,
+        "level": 1,
+        "item_seen": false,
+        "alterations": [],
+        "xp": 0,
+        "refundable": false,
+        "alteration_base_rarities": [],
+        "favorite": false
+      },
+      "quantity": 1
+    },
+    "276d5b43-a849-4d5c-ac29-4bbfa30492b4": {
+      "templateId": "Schematic:ammo_bulletslight",
+      "attributes": {
+        "legacy_alterations": [],
+        "max_level_bonus": 0,
+        "refund_legacy_item": false,
+        "level": 1,
+        "item_seen": false,
+        "alterations": [],
+        "xp": 0,
+        "refundable": false,
+        "alteration_base_rarities": [],
+        "favorite": false
+      },
+      "quantity": 1
+    },
+    "e2118b19-53ef-483f-ae61-4f83f660c4ef": {
+      "templateId": "Quest:homebaseonboarding",
+      "attributes": {
+        "level": -1,
+        "completion_hbonboarding_completezone": 0,
+        "item_seen": false,
+        "sent_new_notification": false,
+        "challenge_bundle_id": "",
+        "challenge_linked_quest_given": "",
+        "quest_pool": "",
+        "quest_state": "Active",
+        "last_state_change_time": "2019-10-25T14:53:20.141Z",
+        "challenge_linked_quest_parent": "",
+        "max_level_bonus": 0,
+        "completion_hbonboarding_namehomebase": 0,
+        "completion_hbonboarding_watchsatellitecine": 0,
+        "xp": 0,
+        "favorite": false
+      },
+      "quantity": 1
+    },
+    "69d34e2a-c054-40d6-b019-66f3ed1f7d3f": {
+      "templateId": "Schematic:sid_assault_auto_c_ore_t00",
+      "attributes": {
+        "legacy_alterations": [],
+        "max_level_bonus": 0,
+        "refund_legacy_item": false,
+        "level": 1,
+        "item_seen": false,
+        "alterations": [],
+        "xp": 0,
+        "refundable": false,
+        "alteration_base_rarities": [],
+        "favorite": false
+      },
+      "quantity": 1
+    },
+    "9569120a-842e-4e9a-96fb-43d1600f1281": {
+      "templateId": "Schematic:ammo_shells",
+      "attributes": {
+        "legacy_alterations": [],
+        "max_level_bonus": 0,
+        "refund_legacy_item": false,
+        "level": 1,
+        "item_seen": false,
+        "alterations": [],
+        "xp": 0,
+        "refundable": false,
+        "alteration_base_rarities": [],
+        "favorite": false
+      },
+      "quantity": 1
+    },
+    "ca042002-d7d1-481f-8472-a4f44512cb4a": {
+      "templateId": "Schematic:ammo_bulletsheavy",
+      "attributes": {
+        "legacy_alterations": [],
+        "max_level_bonus": 0,
+        "refund_legacy_item": false,
+        "level": 1,
+        "item_seen": false,
+        "alterations": [],
+        "xp": 0,
+        "refundable": false,
+        "alteration_base_rarities": [],
+        "favorite": false
+      },
+      "quantity": 1
+    }
+  },
+  "stats": {
+    "attributes": {
+      "node_costs": {},
+      "mission_alert_redemption_record": {
+        "lastClaimedGuidPerTheater": null,
+        "lastClaimTimesMap": null
+      },
+      "rewards_claimed_post_max_level": 0,
+      "collection_book": {},
+      "mfa_reward_claimed": false,
+      "quest_manager": {},
+      "legacy_research_points_spent": 0,
+      "gameplay_stats": [],
+      "permissions": [],
+      "unslot_mtx_spend": 0,
+      "twitch": {},
+      "client_settings": {},
+      "research_levels": {},
+      "level": 1,
+      "xp_overflow": 0,
+      "latent_xp_marker": 0,
+      "inventory_limit_bonus": 0,
+      "xp_lost": 0,
+      "mode_loadouts": [],
+      "daily_rewards": {},
+      "xp": 0,
+      "packs_granted": 0
+    }
+  },
+  "commandRevision": 0
+}
