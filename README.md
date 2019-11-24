@@ -19,6 +19,8 @@ We ❤️ Fortnite and hope this creates an exciting new experience for the game
 
 ✔️ Custom FiddlerCore Launcher That redirects client requests to the server (you can find it in our discord server)
 
+[NeoLauncher By:PsychoPast](https://github.com/PsychoPast/NeoniteLauncher)
+
 ❌ No multiplayer/matchmaking/party support
 
 # FAQs
