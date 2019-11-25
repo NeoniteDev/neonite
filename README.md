@@ -7,7 +7,7 @@ We ❤️ Fortnite and hope this creates an exciting new experience for the game
 ![Server screenshot](/docs/screenshot.png)
 ![Lobby screenshot](/docs/Version9_10.png)
 
-[Our Discord Server](https://discord.gg/PQESqex)
+[Our Discord Server](https://discord.gg/QCDG4dS)
 ### Our lovely server boosters ❤️
 (@2Epik4u#0001 , @Boomer#0001 , @Dream Infinite Reality#5195)
 # Milestones
